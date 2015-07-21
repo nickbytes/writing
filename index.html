@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="">
+
+  <ul class="list-reset">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

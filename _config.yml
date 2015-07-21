@@ -1,0 +1,12 @@
+# Site settings
+title: Nickbytes / writing
+email: nick@nickbytes.com
+description: > # this means to ignore newlines until "baseurl:"
+  Thoughts on web development, cycling, and travel.
+baseurl: "/writing" # the subpath of your site, e.g. /blog/
+url: "http://nickbytes.com" # the base hostname & protocol for your site
+twitter_username: nicktweattie
+github_username:  nickbytes
+
+# Build settings
+markdown: kramdown
