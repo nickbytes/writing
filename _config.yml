@@ -10,3 +10,4 @@ github_username:  nickbytes
 
 # Build settings
 markdown: kramdown
+permalink: /:title
